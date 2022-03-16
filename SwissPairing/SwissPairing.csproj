@@ -11,6 +11,15 @@
     <Description>Simple Swiss pairing algorithm for pairing players.</Description>
     <PackageProjectUrl>https://github.com/shmeker/SwissPairing</PackageProjectUrl>
     <RepositoryUrl>https://github.com/shmeker/SwissPairing</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
