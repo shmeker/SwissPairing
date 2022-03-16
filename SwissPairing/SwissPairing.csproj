@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Smstr.SwissPairing</PackageId>
+    <Authors>Ante Majić</Authors>
+    <Company />
+    <Product>Smstr.SwissPairing</Product>
+    <Description>Simple Swiss pairing algorithm for pairing players.</Description>
+    <PackageProjectUrl>https://github.com/shmeker/SwissPairing</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shmeker/SwissPairing</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
